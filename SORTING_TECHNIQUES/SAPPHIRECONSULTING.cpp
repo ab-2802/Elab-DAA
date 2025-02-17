@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-int isqrt(n) int n; {
+int isqrt(int n) {
 int i;
 for(i=0;i*i<n;i++);
 return i;
